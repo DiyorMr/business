@@ -1,8 +1,11 @@
 import './App.css'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Hero />
+    </div>
   )
 }
 
