@@ -1,5 +1,6 @@
 import { MapPin, PhoneCall } from "lucide-react";
 import { FaBars, FaShoppingCart } from "react-icons/fa";
+import AutomationVideo from "./pages/AutomationVideo ";
 
 const Hero = () => {
     const data = [
@@ -182,41 +183,43 @@ const Hero = () => {
                     </div>
                 </div>
             </section>
-
-            <div className="m-30">
-                <h1 className="font-semibold text-center text-4xl mb-10">
-                    Почему выбирают нас
-                </h1>
-                <div className="grid md:grid-cols-3 gap-8 text-gray-900 py-10">
-                    {data.map((block, index) => (
-                        <div key={index} className="flex flex-col gap-4">
-                            <div className="w-10 h-2 bg-orange-500 rounded"></div>
-                            <h3 className="text-lg text-orange-500 font-bold">
-                                {block.title}
-                            </h3>
-                            <ul className="list-disc list-inside space-y-2 text-base text-gray-800">
-                                {block.items.map((item, i) => (
-                                    <li key={i}>{item}</li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))}
+            <div className="max-w-[1300px] mx-auto px-4">
+                <div className="my-20">
+                    <h1 className="font-semibold text-center text-4xl my-10">
+                        Почему выбирают нас
+                    </h1>
+                    <div className="grid md:grid-cols-3 gap-8 text-gray-900 py-10">
+                        {data.map((block, index) => (
+                            <div key={index} className="flex flex-col gap-4">
+                                <div className="w-10 h-2 bg-orange-500 rounded"></div>
+                                <h3 className="text-lg text-orange-500 font-bold">
+                                    {block.title}
+                                </h3>
+                                <ul className="list-disc list-inside space-y-2 text-base text-gray-800">
+                                    {block.items.map((item, i) => (
+                                        <li key={i}>{item}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+                <div className="max-w-[1300px] mx-auto">
+                    <h1 className="font-semibold text-center text-4xl mb-10">
+                        Для кого мы работаем
+                    </h1>
+                    <div className="grid md:grid-cols-4 gap-6 text-gray-900 py-10">
+                        {img.map((item, index) => (
+                            <div key={index} className="">
+                                <img className="w-[285px] h-[340px]" src={item.src} alt="img" />
+                                <p className="text-base text-gray-700 pt-4">{item.text}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
+            <AutomationVideo />
 
-            <div className="m-30">
-                <h1 className="font-semibold text-center text-4xl mb-10">
-                    Для кого мы работаем
-                </h1>
-                <div className="flex">
-                    {img.map((item, index) => (
-                        <div key={index} className="">
-                            <img className="w-70 h-80" src={item.src} alt="img" />
-                            <p className="text-base text-gray-700 pt-4">{item.text}</p>
-                        </div>
-                    ))}
-                </div>
-            </div>
         </>
     );
 };
