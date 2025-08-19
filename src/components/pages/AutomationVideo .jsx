@@ -9,18 +9,17 @@ const AutomationVideo = () => {
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
-                ></iframe>
+                >
+                </iframe>
             </div>
-
             <div className="flex flex-col gap-5">
                 <h2 className="text-2xl font-bold text-gray-900">
                     Как проходит автоматизация бизнеса
                 </h2>
                 <p className="text-gray-700 text-base">
                     Как автоматизация помогает сократить расходы и увеличить доход уже с первых месяцев работы.
-                    Смотрите в удобном формате – YouTube, Rutube, VK Видео
+                    Смотрите в удобном формате - YouTube, Rutube, VK Видео
                 </p>
-
                 <div className="flex items-center gap-4 flex-wrap">
                     <a href="https://youtube.com">
                         <img src="./img/pauza.svg" alt="img" />
