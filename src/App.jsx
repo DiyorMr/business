@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import Business from './components/Business'
 import Hero from './components/Hero'
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Hero />
       <About />
+      <Business />
     </div>
   )
 }
