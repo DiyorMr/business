@@ -1,5 +1,6 @@
 import Banner from "./pages/Banner"
 import BusinessCard from "./pages/BusinessCard"
+import PortfolioCard from "./pages/PortfolioCard"
 
 const Business = () => {
     return (
@@ -14,6 +15,7 @@ const Business = () => {
                 </div>
             </div>
             <BusinessCard />
+            <PortfolioCard />
         </div>
     )
 }
