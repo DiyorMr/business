@@ -62,7 +62,6 @@ const Hero = () => {
                                 Автоматизация бизнеса под ключ
                             </h1>
                         </div>
-
                         <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
                             <div className="flex items-center gap-2 text-white">
                                 <MapPin className="text-red-700" />
@@ -75,20 +74,16 @@ const Hero = () => {
                                     <option className="text-black">Казань</option>
                                 </select>
                             </div>
-
                             <div className="flex items-center gap-2">
                                 <a
                                     href="https://t.me/mvdiyor"
                                     target="_blank"
-                                    rel="noopener noreferrer"
-                                >
+                                    rel="noopener noreferrer">
                                     <img src="/img/telegramm.svg" alt="@mvdiyor" />
                                 </a>
-                                <a
-                                    href="https://whatsapp/mvdiyor"
+                                <a href="https://whatsapp/mvdiyor"
                                     target="_blank"
-                                    rel="noopener noreferrer"
-                                >
+                                    rel="noopener noreferrer">
                                     <img src="/img/whatsapp.svg" alt="WhatsApp" />
                                 </a>
 
@@ -116,12 +111,27 @@ const Hero = () => {
                         <div className="flex flex-col sm:flex-row gap-3">
                             <select className="bg-white/10 rounded px-2 py-1">
                                 <option>Автоматизация</option>
+                                <option className="text-black">Москва</option>
+                                <option className="text-black">Санкт-Петербург</option>
+                                <option className="text-black">Екатеринбург</option>
+                                <option className="text-black">Новосибирск</option>
+                                <option className="text-black">Казань</option>
                             </select>
                             <select className="bg-white/10 rounded px-2 py-1">
                                 <option>Услуги</option>
+                                <option className="text-black">Москва</option>
+                                <option className="text-black">Санкт-Петербург</option>
+                                <option className="text-black">Екатеринбург</option>
+                                <option className="text-black">Новосибирск</option>
+                                <option className="text-black">Казань</option>
                             </select>
                             <select className="bg-white/10 rounded px-2 py-1">
                                 <option>Программное обеспечение</option>
+                                <option className="text-black">Москва</option>
+                                <option className="text-black">Санкт-Петербург</option>
+                                <option className="text-black">Екатеринбург</option>
+                                <option className="text-black">Новосибирск</option>
+                                <option className="text-black">Казань</option>
                             </select>
                         </div>
 
