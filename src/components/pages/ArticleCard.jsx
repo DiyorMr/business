@@ -30,7 +30,6 @@ const ArticleCard = () => {
                             </div>
                         ))
                 }
-
             </div>
             <div className="flex items-center justify-center pt-15 pb-30">
                 <button className="rounded-[10px] bg-[#F28E35] text-white py-5 px-10 cursor-pointer">открыть все статьи</button>

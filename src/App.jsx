@@ -2,6 +2,7 @@ import './App.css'
 import About from './components/About'
 import Business from './components/Business'
 import Hero from './components/Hero'
+import CardInfo from './components/pages/CardInfo'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Hero />
       <About />
       <Business />
+      <CardInfo />
     </div>
   )
 }
