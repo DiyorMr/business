@@ -1,3 +1,4 @@
+import ArticleCard from "./pages/ArticleCard"
 import Banner from "./pages/Banner"
 import BusinessCard from "./pages/BusinessCard"
 import PortfolioCard from "./pages/PortfolioCard"
@@ -16,6 +17,8 @@ const Business = () => {
             </div>
             <BusinessCard />
             <PortfolioCard />
+            <ArticleCard />
+
         </div>
     )
 }
